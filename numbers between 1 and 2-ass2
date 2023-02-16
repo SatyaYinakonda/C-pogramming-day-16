@@ -1,0 +1,17 @@
+//PROGRAM BETWEEN 1 AND 2//
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+float i=1;
+
+
+while(i<2)
+	{
+	
+
+printf("%2f\n",i);
+i=i+0.1;
+}
+	return 0;
+}
