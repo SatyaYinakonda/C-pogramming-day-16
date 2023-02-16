@@ -1,0 +1,15 @@
+//PROGRAM ON POWER VALUE//
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main()
+{
+	int ans,x,y;
+	printf("Enter value of x:");
+	scanf("%d",&x);
+	printf("Enter value of y:");
+	scanf("%d",&y);
+	ans=pow(x,y);
+	printf("The power vaue of x to y is:%d",ans);
+	return 0;
+}
